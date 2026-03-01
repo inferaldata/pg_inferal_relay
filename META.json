@@ -1,0 +1,25 @@
+{
+  "name": "pg_inferal_relay",
+  "abstract": "Consume LDES streams from Inferal Relay in PostgreSQL",
+  "version": "0.1.0",
+  "maintainer": "Yurii Rashkovskii <yrashk@inferal.com>",
+  "license": "postgresql",
+  "provides": {
+    "pg_inferal_relay": {
+      "file": "sql/pg_inferal_relay--0.1.0.sql",
+      "version": "0.1.0"
+    }
+  },
+  "prereqs": {
+    "runtime": {
+      "requires": {
+        "PostgreSQL": "14.0"
+      }
+    }
+  },
+  "meta-spec": {
+    "version": "1.0.0",
+    "url": "https://pgxn.org/spec/"
+  },
+  "tags": ["ldes", "linked-data", "event-streams", "relay", "inferal"]
+}

@@ -1,0 +1,4 @@
+comment = 'Consume LDES streams from Inferal Relay'
+default_version = '0.1.0'
+relocatable = false
+requires = 'plpgsql'
